@@ -1,0 +1,158 @@
+body {
+    padding-top: 20px;
+    background-color: #080808;
+}
+
+.info {
+    /*justify-content: space-between;*/
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+
+
+.cont {
+    flex-direction: row;
+}
+
+.cont img {
+    width: 40%;
+}
+
+.cont a {
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+    color: white;
+    transition: .3s all linear;
+}
+
+
+.cont a:hover {
+    border-right: 1px solid cornflowerblue;
+    border-bottom: 1px solid cornflowerblue;
+    text-decoration: none;
+    color: cornflowerblue;
+    opacity: 70%;
+    border-radius: 10px;
+}
+
+.search-input {
+    margin-bottom: 50px!important;
+    background-color: darkgray;
+}
+
+.list img {
+    border-radius: 10px;
+}
+
+.header-right {
+
+}
+
+.header-right a {
+    transition: .3s linear;
+}
+
+.header-right a:hover {
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.header {
+    color: #007bff;
+    font-size: 1.2rem;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.details {
+    margin-top: 3%;
+    font-size: 1.1rem;
+    color: darkgrey;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.btn-toggle {
+    width: 100%;
+    font-size: 100%;
+    margin-bottom: 2%;
+}
+
+.row-btn {
+    margin-top: 25px;
+}
+
+.h2 {
+    margin: 0 0 5%;
+}
+
+.h2{
+    border-radius: 25px 25px 0 0;
+}
+.similar {
+    border-radius: 25px;
+    padding: 0;
+    border: 1px solid cornflowerblue;
+    margin-top: 5%;
+}
+
+.genres h2 {
+    font-size: 2em;
+    margin-top: -3%;
+    color: White;
+}
+
+.genres {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+.filter {
+    margin-top: 2.5%;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    cursor: pointer;
+    justify-content: space-around;
+
+}
+
+.filter li {
+    margin-bottom: 1%;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    border-bottom: 1px solid white;
+    color: white;
+    transition: .3s linear ;
+    /*margin: 0 2% 0 2%;*/
+}
+
+.filter li:hover {
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    border-bottom: 1px solid goldenrod!important;
+    color: goldenrod!important;
+}
+
+.isFilter {
+    text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
+    border-bottom: 1px solid goldenrod!important;
+    color: goldenrod!important;
+}
+
+@media (max-width: 720px) {
+    .genres h2 {
+        font-size: 1.5rem;
+    }
+
+    .header {
+        font-size: 1rem;
+    }
+}
